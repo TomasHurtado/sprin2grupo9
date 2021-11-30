@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+main{
+    display: flex;
+    
+    padding: 40px;
+    justify-content: space-between;
+}
+
+main .perfil{
+    display: flex;
+    flex-direction:column;
+   
+}
+
+label{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 25px;
+}

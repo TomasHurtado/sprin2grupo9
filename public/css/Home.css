@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+
+header .primero{
+    display: block;
+
+    background: #C5CAE9;
+    justify-content: center;
+    border: solid 1px;
+    border-color: #BDBDBD;
+    width: 100%;
+}
+
+.titulo{
+
+    width: 100%;
+    margin: 10px ;
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    color:#212121;
+}
+
+.inicio{
+    display: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+
+
+header .segundo{
+    display: flex;
+    background-color: #3F51B5;
+    justify-content: center; 
+    background: #3F51B5;
+}
+
+header .form{
+    display: flex;
+    padding: 5px;
+}
+
+
+/**/
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.form .la-bara{
+    background-color: white;
+    border: 1px solid #666;
+    color:#666;
+    padding: 3px;
+    width: 70%;
+    border-radius: 3px;
+}
+
+.form .submitt{
+    background-color: #ebebeb;
+    border: 1px solid #666;
+    color:#000;
+    padding: 3px;
+    width: 28px;
+    border-radius: 3px;
+}
+/**/
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #3F51B5;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+/**/
+.tercero{
+    
+    background-color: rgb(43, 43, 204);
+    background: #3F51B5;  
+}
+
+.tercero .nav-barr{
+    display: none;
+
+   
+}
+
+.nav-barr ul{
+
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+header .nav-barr a{
+    list-style-type: none;
+    font-size: 22px;
+    text-decoration:none;
+    font-weight: bold;
+    color: #FFFFFF; 
+    text-align: center;
+    display: inline-block;
+
+}
+header ul li a:hover{
+    background: #757575;
+    border-radius: 3px;
+}
+
+main{
+    background: #C5CAE9;
+}
+
+.slider{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 15s infinite;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 30%;
+    justify-content: center;
+}
+
+.slider2{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider2 ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 15s infinite;
+}
+.slider2 li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider2 img{
+    width: 5%;
+    justify-content: center;
+   position: relative;
+   left: 50%;
+}
+
+
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% { margin-left: -300%;}
+
+}
+
+
+.main-footer{
+    display: flex;
+    
+    justify-content: space-between;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
+    
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media(min-width:361px){
+    header .burger-menu{
+        display: none;
+    }
+
+    .tercero .nav-barr{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin: 0 3%;
+
+    }
+
+    header .nav-barr{
+        display: flex;
+        justify-content: center;
+        padding: 0 8px 8px 8px;
+    }
+
+    .nav-barr ul{
+        display: flex;
+    }
+    .nav-barr ul a{
+        margin: 0 5px;
+        display: flex;
+        padding: 0 3px;
+
+    }
+
+    .inicio {
+        display: flex;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    /*.user-cirlcle, .carrito {
+        font-size: 35px;
+        margin: 5px;
+        align-self:auto;
+        text-decoration: none;
+        
+    }*/
+
+}
+
+
+
+@media(min-width:769px){
+    header .primero{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .titulo{
+        font-size: 25px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    *{
+        padding: 0px;
+    }
+
+    main {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .titulo-compra{
+        display: block;
+    
+    }
+    footer{
+      position: relative;
+      bottom: 0px;
+      text-align: center;
+    }
+    .main-footer{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .main-footer ul li {
+      margin: 5px 0;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+}
+
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}

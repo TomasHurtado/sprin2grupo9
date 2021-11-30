@@ -1,0 +1,22 @@
+{
+  "name": "sprint2-grupo9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marianocr98/haciendo-pruebas2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marianocr98/haciendo-pruebas2/issues"
+  },
+  "homepage": "https://github.com/Marianocr98/haciendo-pruebas2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

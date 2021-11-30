@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+
+header .primero{
+    display: flex;
+    flex-wrap: wrap;
+    background: #C5CAE9;
+    justify-content: space-between;
+    border: solid 1px;
+    border-color: #BDBDBD;
+}
+
+header div .titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-family: 'Tourney', cursive;
+    color:#212121;
+}
+
+header .Logo{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.icono {
+    font-size: 35px;
+    margin: 20px;
+    align-self:auto;
+    text-decoration: none;
+}
+
+header .segundo{
+    display: flex;
+    background-color: #3F51B5;
+    justify-content: center; 
+    background: #3F51B5;
+}
+
+header .form{
+    display: flex;
+    padding: 5px;
+}
+
+header .form .input{
+    background-color: white;
+    border: 1px solid #666;
+    color:#666;
+    padding: 3px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+header .form .submit{
+    background-color: #ebebeb;
+    border: 1px solid #666;
+    color:#000;
+    padding: 3px;
+    width: 28px;
+    margin-left: 8px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.tercero{
+    display: flex;
+    background-color: rgb(43, 43, 204);
+    background: #3F51B5;  
+    
+    
+   
+}
+
+.tercero .nav-barr{
+    text-align: center;
+    margin: auto;
+   
+}
+
+header ul{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+header ul li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px, 20px;
+    
+}
+
+header ul li a{
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bold;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: #FFFFFF; 
+}
+header ul li a:hover{
+    background: #757575;
+    border-radius: 3px;
+}
+
+main{
+    display: flex;
+    padding: 50px;
+    background: #C5CAE9;   
+    
+}
+.titulo-compra{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tabla{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.tabla a{
+    text-decoration: none;
+}
+.tabla-productos ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+.tabla-productos ul li{
+    list-style-type: none;
+    padding: 15px;
+    
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.productos div{
+    
+    padding: 5px;
+}
+.productos img{
+    height: 100px;
+    
+}
+
+.productos i {
+    width: 100px;
+    height: 100px;
+}
+.cant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
+    
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}

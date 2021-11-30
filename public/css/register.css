@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-direction:column;
+    text-align: center;
+}
+
+
+.register{
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+.b-de-vuelta, .b-verte{
+    font-size: 30px;
+}
+
+.b-verte{
+    font-size: 15px;
+}
+
+.b-de-vuelta, .b-verte{
+    text-align: center;
+    color: white;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+label{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.registrate{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+::placeholder{
+    background-color: white;
+    color: rgb(43, 43, 204);;
+}
+
+.login button{
+    margin-top: 20px;
+}
+
+.reg{
+    display: flex;
+    max-width: 50%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 26%;
+}
+
+
+.reg2{
+    display: flex;
+    max-width: 40%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: rgb(43, 43, 204);
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.reg2:hover{
+    background-color: rgb(74, 116, 194); 
+    color: black;
+}
+
+.reg3{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 17px;
+}
+
+/*boton enviar*/
+.reg2{
+    color:rgb(43, 43, 204);;
+    text-decoration: none;
+}
+
+.login button {
+    display: flex;
+    max-width: 100%;
+    background-color: #1259c3;
+}
+
+.login button[type='submit']:hover{
+    background-color: #0022AA;
+}
+/*boton enviar*/
+
+
+/*avisos  de abajo*/
+.cuenta-regist{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.olvidar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avisos a{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+/*avisos  de abajo*/
+
+
+@media(min-width: 361px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+}

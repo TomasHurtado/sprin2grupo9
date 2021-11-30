@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+
+
+.letras-recuperar{
+    padding-top: 3px;
+}
+
+
+/*texto y titulo*/
+.titulo-recuperar, .letras-recuperar{
+    color: rgb(0, 0, 0);
+
+}
+
+.recuperar-contraseña, .validar{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+/*texto y titulo*/
+
+/*barritas para llenar*/
+label{
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color: white;
+}
+
+input{
+    background-color: rgb(128, 128, 128);
+    /*opacity: 0.5;*/
+    color: white;
+}
+
+
+.recuperar-form input, button{
+    max-width: 100%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+/*barritas para llenar*/
+
+
+/*boton enviar*/
+.enviar button  a, .crear button  a{
+    color:white;
+    text-decoration: none;
+}
+
+.enviar button, .crear button {
+    max-width: 100%;
+    background-color: #1259c3;
+    border: solid 1px #666;
+}
+
+.enviar button[type='submit']:hover, .crear button[type='submit']:hover{
+    background-color: #0022AA;
+}
+
+/*boton enviar*/
+
+
+
+@media(min-width: 361px){
+    .recuperar-contraseña, .validar{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+}
