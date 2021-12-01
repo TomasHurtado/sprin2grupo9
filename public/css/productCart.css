@@ -272,40 +272,12 @@ h5{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 900px) {
 
-    *{
-        font-size: 13px;
-    }
-
-    main {
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .titulo-compra{
-        display: block;
-    
-    }
-    footer{
-      position: relative;
-      bottom: 0px;
-      text-align: center;
-    }
-    .main-footer{
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
-    }
-    .main-footer ul li {
-      margin: 5px 0;
-    }
-  }
 
  .main-footer ul li a{
     text-decoration: none;
     color: white;
-}
+    }
 .fomulario{
     padding: 0px 50px;
     color: white;
@@ -330,10 +302,79 @@ h5{
     border-radius: 5px;
 }
 
+
+  
+
+
+/*////**/
+
+@media(min-width:361px){
+    header .burger-menu{
+        display: none;
+    }
+
+    .tercero .nav-barr{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin: 0 3%;
+
+    }
+
+    header .nav-barr{
+        display: flex;
+        justify-content: center;
+        padding: 0 8px 8px 8px;
+    }
+
+    .nav-barr ul{
+        display: flex;
+    }
+    .nav-barr ul a{
+        margin: 0 5px;
+        display: flex;
+        padding: 0 3px;
+
+    }
+
+    .inicio {
+        display: flex;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    /*.user-cirlcle, .carrito {
+        font-size: 35px;
+        margin: 5px;
+        align-self:auto;
+        text-decoration: none;
+        
+    }*/
+
+}
+
+
+
+@media(min-width:769px){
+    header .primero{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .titulo{
+        font-size: 25px;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width: 900px) {
 
     *{
-        font-size: 13px;
+        padding: 0px;
     }
 
     main {
@@ -358,9 +399,17 @@ h5{
     .main-footer ul li {
       margin: 5px 0;
     }
-  }
-
- .main-footer ul li a{
-    text-decoration: none;
-    color: white;
+    .titulo{
+        font-size: 20px;
+    }
+    main {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .titulo-compra{
+        display: block;
+    
+    }
 }
