@@ -248,17 +248,17 @@ header ul li a:hover{
     align-items: center;
 }
 
-.price{
+.price22{
     color: #333;
     display: flex;
     align-items: flex-start;
 }
 
-.price h1{
+.price22 h1{
     line-height: 1;
 }
 
-.price i{
+.price22 i{
     font-size: 35px;
     margin-right: 1px;
     line-height: 1;
