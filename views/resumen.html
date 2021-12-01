@@ -61,72 +61,128 @@
         </div>
 
     </header>
-        <main>
-            <div>
-                <div class="titulo-compra">
-                    <div><i class="fas fa-shopping-cart"></i></div>
-                    <div>Mi compra</div>
-                    <div><i class="far fa-star"></i></div>
-                    <div>Mis Productos</div>
-                    
-                </div>
-                <div class="tabla">
-                    
-                    <div><a href="/productCart">Mis Productos   
-                    <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                    
-                    <div><a href="/entrega">Entregas   
-                    <i class="fas fa-arrow-right"></i></div></a>
+    <main>
+        <div class="Caja">
+            <div class="titulo-compra">
+                <div><i class="fas fa-shopping-cart"></i></div>
+                <div>Mi compra</div>
+                <div><i class="far fa-star"></i></div>
+                <div>Mis Productos</div>
                 
-                    <div><a href="/pago">Modo de Pago
-                    <i class="fas fa-arrow-right"></i></div></a>
-                    
-                    <div><a href="/resumen">Resumen   
-                    <i class="fas fa-arrow-right"></i></div></a>
-                </div>
             </div>
-            <div class="produc-precio">
-                <div>
-                    <div class="tabla-productos">
-                        <ul>
-                            <li>Productos</li>
-                            <li>Cantidad</li>
-                            <li>Precio$</li>
-                            <li>Total$</li>
-                        </ul>
-                    </div>
-                    <div class="productos">
-                        <img src="/img/fotopc1.png" width="100" alt="ram">
-                        <div>Pc De Escritorio Armada Computadora I5 16gb 480gb</div>
-                        <div class="cant">
-                            - 2 +
-                        </div>
-                        <div>$ 77.144</div>
-                        <div>$ 77.144</div>
-                    </div>
+            
+        </div>
+        <div class="produc-precio">
+            <table>
+                <div class="tabla-productos">
+                   
+                        <tr>
+                            <th> </th>
+                            <th>Productos</th>
+                            <th>Cantidad</th>
+                            <th>Precio$</th>
+                            <th>Total$</th>
+                        </tr>
+                    
+                </div>
+                <div class="productos">
+                   
+                        <tr>
+                            <td><img src="/img/fotopc1.png" width="100" alt="ram"></td>
+                            <td><div>Pc De Escritorio Armada Computadora I5 16gb 480gb</div></td>
+                            <td><select name="select">
+                                <option value="1" selected>1</option>
+                                <option value="2" >2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select></td>
+                            <td><div>$ 77.144</div></td>
+                            <td><div>$ 77.144</div></td>
+                        </tr>
+                 
+                </div>
 
-                    <div class="productos">
-                        <img src="/img/placa.jpg" width="100" alt="placa">
-                        <div>Placa de Video Sentey AMD Radeon RX 580 8Gb GDDR5</div>
-                        <div class="cant">
-                            - 1 +
-                        </div>
-                        <div>$ 59.999,00</div>
-                        <div>$ 59.999,00</div>
-                    </div>
+                <div class="productos">
+                    
+                        <tr></tr>
+                            <td><img src="/img/placa.jpg" width="100" alt="placa"></td>
+                            <td><div>Placa de Video Sentey AMD Radeon RX 580 8Gb GDDR5</div></td>
+                            <td><select name="select">
+                                <option value="1" selected>1</option>
+                                <option value="2" >2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select></td>
+                            <td><div>$ 59.999</div></td>
+                            <td><div>$ 59.999</div></td>
+                        </tr>
+                
+                </div>
 
-                    <div class="productos">
-                        <img src="/img/kit.jpg" width="100" alt="kit">
-                        <div>Kit Teclado Mouse Auriculares y Mousepad Strike Me Gamer CM-406 Combo RGB</div>
-                        <div class="cant">
-                            - 1 +
-                        </div>
-                        <div>$ 3.199,00</div>
-                        <div>$ 3.199,00</div>
-                    </div>
+                <div class="productos">
+                    
+                        <tr>
+                            <td><img src="/img/kit.jpg" width="100" alt="kit"></td>
+                            <td><div>Kit Teclado Mouse Auriculares y Mousepad Strike Me Gamer CM-406 Combo RGB</div></td>
+                            <td><select name="select">
+                                <option value="1" selected>1</option>
+                                <option value="2" >2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select></td>
+                            <td><div>$ 3.199</div></td>
+                            <td><div>$ 3.199</div></td>
+                        </tr>
+                           
+                </div>
+
+                
                 
                 <div class="productos">
+                    <tr>
+                        <td>
+                            <img src="/img/envios.jpg" alt="envio" width="100">
+                        </td>
+                        <td>
+                            <div>Detalles del envio</div>
+                        </td>
+                        <td>1                             
+                        </td>
+                        <td>
+                            <div>$ 1000</div>
+                        </td>
+                        <td>
+                            <div>$ 1000</div>
+                        </td>
+                    </tr>
+
+            </table>
+
+            <div>
+                <button><a href="/">Finalizar compra</a></button>
+                <div>Total: $141.342</div>
+            </div>
+        </div>
+    </main>
+        <!-- <div class="productos">
                     <i class="fas fa-truck"></i>
                     <div>Detalles del envio</div>
                     <div class="cant">
@@ -134,13 +190,7 @@
                     </div>
                     <div>          </div>
                     <div>$ 1000,00</div>
-                </div>
-            </div>
-            <div>
-                <button><a href="/">Finalizar</a></button>
-                <div>Total: $75.596</div>
-            </div>
-        </main>
+                </div>-->
         <footer class="main-footer">
             <div class="logobot">
                 <img src="img/este_si3.png" width="150" alt="LogoMPC">
