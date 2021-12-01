@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Zen Kurenaido', sans-serif;
+    
 }
 
 header{
@@ -13,45 +13,39 @@ header{
 }
 
 header .primero{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+
     background: #C5CAE9;
-    justify-content: space-between;
+    justify-content: center;
     border: solid 1px;
     border-color: #BDBDBD;
+    width: 100%;
 }
 
-header div .titulo{
-    display: flex;
-    justify-content: center;
-    font-size: 39px;
-    align-self: flex-start;
-    margin-top: 10px;
+.Logo{
+    margin-left: 40px;
 }
 
-.titulo{
-    font-family: 'Tourney', cursive;
-    color:#212121;
-}
-
-header .Logo{
-    display: flex;
-    justify-content: space-around;
-   
-}
-
-.icono {
-    font-size: 35px;
+.inicio {
+    display: none;
+    text-align: center;
+    padding: 20px;
     margin: 20px;
-    align-self:auto;
-    text-decoration: none;
+    font-size: 40px;
+    height: 40px;
+}
+
+.inicio i {
+    font-size: 50px;
+    margin: auto;
+    color: #0829e2be;
 }
 
 header .segundo{
     display: flex;
-    background-color: #3F51B5;
+    background-color: #C5CAE9;
     justify-content: center; 
-    background: #3F51B5;
+    background: #C5CAE9;
 }
 
 header .form{
@@ -59,65 +53,90 @@ header .form{
     padding: 5px;
 }
 
-header .form .input{
+
+/**/
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.form .la-bara{
     background-color: white;
     border: 1px solid #666;
     color:#666;
     padding: 3px;
-    width: 600px;
+    width: 1200px;
     border-radius: 3px;
+    height: 35%;
+    margin: auto;
 }
 
-header .form .submit{
+.form .submitt{
     background-color: #ebebeb;
     border: 1px solid #666;
     color:#000;
     padding: 3px;
-    width: 28px;
-    margin-left: 8px;
-    font-weight: bold;
+    width: 40px;
     border-radius: 3px;
+    height: 35%;
+    margin: auto;
+}
+/**/
+
+
+div.burger-menu{
+    text-align: center;
 }
 
+div.burger-menu i{
+    background-color: #3F51B5;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+/**/
 .tercero{
-    display: flex;
+    
     background-color: rgb(43, 43, 204);
     background: #3F51B5;  
-    
-    
-   
 }
 
 .tercero .nav-barr{
-    text-align: center;
-    margin: auto;
+    display: none;
+
    
 }
 
-header ul{
-    display: flex;
+.nav-barr ul{
+
     margin: 10px;
     text-align: center;
-}
-
-header ul li{
-    display: flex;
     list-style-type: none;
-    justify-content: space-between;
-    padding: 0px, 20px;
-    
 }
 
-header ul li a{
-    font-size: 25px;
+
+header .nav-barr a{
+    list-style-type: none;
+    font-size: 22px;
     text-decoration:none;
     font-weight: bold;
-    padding-right: 12px;
-    padding-left: 12px;
     color: #FFFFFF; 
+    text-align: center;
+    display: inline-block;
+
 }
 header ul li a:hover{
-    background: #757575;
+    background: #C5CAE9;
+    color: black;
     border-radius: 3px;
 }
 
@@ -151,17 +170,47 @@ main{
     list-style-type: none;
     text-decoration: none;
 }
-
 .main-footer{
     display: flex;
+    
     justify-content: space-between;
-    text-align: justify;
     font-family: 'Zen Kurenaido', sans-serif;
     text-decoration: none;
     padding: 20px;
     background: #3F51B5
     
 }
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
 
 .main-footer ul li a{
     text-decoration: none;

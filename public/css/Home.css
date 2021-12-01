@@ -22,29 +22,30 @@ header .primero{
     width: 100%;
 }
 
-.titulo{
-
-    width: 100%;
-    margin: 10px ;
-    text-align: center;
-    font-family: 'Tourney', cursive;
-    color:#212121;
+.Logo{
+    margin-left: 40px;
 }
 
-.inicio{
+.inicio {
     display: none;
     text-align: center;
-    margin: 10px;
-    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
     height: 40px;
 }
 
+.inicio i {
+    font-size: 50px;
+    margin: auto;
+    color: #0829e2be;
+}
 
 header .segundo{
     display: flex;
-    background-color: #3F51B5;
+    background-color: #C5CAE9;
     justify-content: center; 
-    background: #3F51B5;
+    background: #C5CAE9;
 }
 
 header .form{
@@ -66,8 +67,10 @@ header .form{
     border: 1px solid #666;
     color:#666;
     padding: 3px;
-    width: 70%;
+    width: 1200px;
     border-radius: 3px;
+    height: 35%;
+    margin: auto;
 }
 
 .form .submitt{
@@ -75,8 +78,10 @@ header .form{
     border: 1px solid #666;
     color:#000;
     padding: 3px;
-    width: 28px;
+    width: 40px;
     border-radius: 3px;
+    height: 35%;
+    margin: auto;
 }
 /**/
 
@@ -130,75 +135,57 @@ header .nav-barr a{
 
 }
 header ul li a:hover{
-    background: #757575;
+    background: #C5CAE9;
+    color: black;
     border-radius: 3px;
 }
 
 main{
-    background: #C5CAE9;
-}
-
-.slider{
-    background-color: white;
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider ul{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    padding: 0%;
-    width: 400%;
-    animation: cambio 15s infinite;
 }
-.slider li{
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 50%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
     width: 100%;
-    list-style: none;
-}
-
-.slider img{
-    width: 30%;
-    justify-content: center;
-}
-
-.slider2{
-    background-color: white;
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider2 ul{
     display: flex;
-    padding: 0%;
-    width: 400%;
-    animation: cambio 15s infinite;
-}
-.slider2 li{
-    width: 100%;
-    list-style: none;
-}
-
-.slider2 img{
-    width: 5%;
-    justify-content: center;
-   position: relative;
-   left: 50%;
-}
-
-
-
-@keyframes cambio {
-    0% {margin-left: 0;}
-    20% { margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% { margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% { margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% { margin-left: -300%;}
-
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
 }
 
 
@@ -240,6 +227,38 @@ h5{
     padding: 10px;
     border-radius: 5px;
 }
+
+
+
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 @media(min-width:361px){
     header .burger-menu{
@@ -335,33 +354,4 @@ h5{
     .titulo{
         font-size: 20px;
     }
-}
-
-
-.main-footer ul li a{
-    text-decoration: none;
-    color: white;
-}
-.fomulario{
-    padding: 0px 50px;
-    color: white;
-}
-h5{
-    color: white;
-}
-.main-footer ul li {
-    text-decoration: none;
-    color: white;
-    list-style-type:none
-}
-.main-footer ul i{
-    text-decoration: none;
-    color: white;
-}
-
-.logobot
-{
-    background-color: #C5CAE9;
-    padding: 10px;
-    border-radius: 5px;
 }
