@@ -145,6 +145,7 @@ main{
     padding: 50px;
     background: #C5CAE9;   
     justify-content: center;
+   
 }
 
 
@@ -152,13 +153,58 @@ main{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    box-shadow: 0px 0px 10px rgb(82, 81, 81); 
+    font-family: 'Zen Kurenaido', sans-serif; 
+   
+}
+th, td {
+    padding: 15px;
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
 
 }
+
+tr:hover {background-color: #a0a7cf;}
+
+th {
+    background-color: rgb(43, 43, 204);
+    color: white;
+}
+.botone44{
+    color:white;
+    background-color: rgb(43, 43, 204);
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.borde22{
+    background-color: rgb(43, 43, 204);
+    height: 40px;
+    width: 10%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.borde22:hover{
+    text-decoration: none;
+     background-color:#97a0d8; 
+     color: black;
+ }
+.botone44:hover{
+    text-decoration: none;
+     background-color:#97a0d8; 
+     color: black;
+ }
+
+
 .titulo-compra{
     display: flex;
     justify-content: space-between;
+    font-family: 'Zen Kurenaido', sans-serif;
 
 }
+
 
 .tabla{
     display: flex;
@@ -166,16 +212,18 @@ main{
     padding: 5px;
     list-style-type: none;
     text-decoration: none;
+    border-collapse: collapse;
+    
 }
 .tabla a{
     text-decoration: none;
+    
 }
 .tabla-productos ul{
     display: flex;
     flex-direction: row;
     text-decoration: none;
     justify-content: space-around;
-    
     
 }
 .tabla-productos ul li{
