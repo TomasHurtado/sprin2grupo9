@@ -124,8 +124,6 @@ header ul li a:hover{
 
 
 /*Producto detallado principal*/
-
-
 .container{
     min-height: 80vh;
     display: flex;
@@ -311,11 +309,9 @@ main .products article{
     background-color: white;
 }
 
-
 .discount{
     padding-left: 4px;
 }
-
 
 .botone3{
     background-color: rgb(43, 43, 204);
@@ -343,10 +339,8 @@ main .products article{
 
 .price,
 .discount{
-    
     font-family: 'Zen Kurenaido', sans-serif;
     font-size:20px;
-    
 }
 
 /*fin main*/
@@ -403,7 +397,6 @@ main .products article{
 }
 
 
-
 @media(min-width:361px){
     header .burger-menu{
         display: none;
@@ -457,12 +450,6 @@ main .products article{
         width: 45%;
     }
     
-    /*.botone3:hover{
-        text-decoration: none;
-        background-color:#C5CAE9; 
-        color: black;
-    }*/
-
     header .burger-menu{
         display: none;
     }
