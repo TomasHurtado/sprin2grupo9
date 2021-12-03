@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 header{
@@ -13,8 +12,6 @@ header{
     
 }
 
-
-/*primer header0*/
 header .primero{
     display: block;
     flex-wrap: wrap ;
@@ -26,32 +23,17 @@ header .primero{
     padding: 3px;
 }
 
-
 .Logo{
-
     text-align: center;
 }
-
-/*.inicio {
-    display: none;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    font-size: 40px;
-    height: 40px;
-}*/
-
 .inicio {
     display: none;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 20px;
-    
     font-size: 20%;
-    
 }
-
 
 .inicio i {
     font-size: 50px;
@@ -60,12 +42,10 @@ header .primero{
 }
 /*primer header0*/
 
-
 header .form{
     display: flex;
     padding: 5px;
 }
-
 /*primer header1*/
 .form{
     display: block;
@@ -91,11 +71,8 @@ header .form{
     width: 40px;
     border-radius: 3px;
     min-height: 35%;
-
 }
 /*primer header1*/
-
-
 
 div.burger-menu{
     text-align: center;
@@ -112,20 +89,14 @@ div.burger-menu i{
     width: 40px;
 }
 
-
-
 /* navegador-header*/
 .tercero{
-    
     background-color: rgb(43, 43, 204);
     background: #3F51B5;  
-    
 }
 
 .tercero .nav-barr{
-    display: none;
-    
-   
+    display: none; 
 }
 
 .nav-barr ul{
@@ -150,7 +121,9 @@ header ul li a:hover{
     color: black;
     border-radius: 3px;
 }
+/*Producto detallado principal*/
 
+/*
 .container{
     min-height: 80vh;
     display: flex;
@@ -158,7 +131,6 @@ header ul li a:hover{
     align-items: center;
     font-family: 'Zen Kurenaido', sans-serif;
 }
-
 
 .card{
     display: flex;
@@ -238,7 +210,6 @@ header ul li a:hover{
     margin-bottom: 10px;
     align-items: center;
 }
-
 .buy-price{
     padding-top: 15px;
     display: flex;
@@ -281,8 +252,9 @@ header ul li a:hover{
     background-color:#C5CAE9; 
     color: black;
 }
+/* fin de detalle principal */
 
-
+/*caja de subtitulo
 .subtitulo {
     display: flex;
     position: relative;
@@ -298,32 +270,7 @@ h2{
 body{
     background-color: #C5CAE9;
 }
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    background-color: white;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size:20px;
-  }
-
-
+ fin  caja de subtitulo
 
 @media (max-width: 1000px){
     .card{
@@ -331,47 +278,38 @@ div.gallery {
         width: 100%;
         box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.2);
     }
-    
     .card > div{
         width: 100%;
         box-shadow: none;
     }
-
     .foto1{
         display: flex;
         top: 20%;
         left: 5%;
     }
 }
-
+*/
+/*
 @media (max-width: 490px){
     .foto1{
-        display: flex
-        
-        ;
+        display: flex;
         font-size: 7rem;
     }
-
     .name{
         font-size: 1.3rem;
     }
-
     .title{
         font-size: .9rem;
     }
-
     .text{
         font-size: .8rem;
     }
-
     .price h1{
         font-size: 1.5rem;
     }
-
     .price i{
         font-size: .9rem;
     }
-
     .size{
         width: 30px;
         height: 30px;
@@ -379,7 +317,6 @@ div.gallery {
         font-size: .9rem;
         line-height: 30px;
     }
-
     .info{
         padding: 20px;
     }
@@ -387,6 +324,7 @@ div.gallery {
         width: 350px;
     }
 }
+*/
 
 
 @media(min-width:361px){
@@ -417,7 +355,6 @@ div.gallery {
         padding: 0 3px;
 
     }
-
     .inicio {
         display: flex;
         text-align: center;
@@ -426,55 +363,15 @@ div.gallery {
         height: 40px;
         font-size: 25px;
     }
-    /*.user-cirlcle, .carrito {
-        font-size: 35px;
-        margin: 5px;
-        align-self:auto;
-        text-decoration: none;
-        
-    }*/
-
 }
-
 
 @media(min-width:769px){
     header .primero{
         display: flex;
         justify-content: space-between;
-
     }
-
     .titulo{
         font-size: 25px;
         align-items: center;
-    }
-}
-@media (min-width: 769px){
-    main section div.products article{
-        width: 22%;
-    }
-
-
-    /*parte header */
-    header .primero{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .Logo{
-        margin: 0, 0, 0, 23px;
-        text-align: left;
-    }
-
-    .segundo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-width: 60%;
-    }
-
-    .price,
-    .discount{
-        width: 50%;
     }
 }
