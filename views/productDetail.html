@@ -14,7 +14,54 @@
 </head>
 
 <body>
-    
+    <header class="main-header">
+
+        <div class="primero">
+
+            <div class="Logo">
+                <a href="/"><img src="/img/este_si3.png" width="150" alt="LogoMPC"></a>
+            </div>
+
+
+            
+            <div class="segundo">
+               <form class="form" action="#" method="GET">
+        
+                <input class="la-bara" type="text" name="barra" placeholder="Buscar productos, marcas">
+        
+                 <button class="submitt" type="submit" name="barra"><i class="fa fa-search"></i></button>
+        
+                 </form>
+            </div>
+            
+
+
+            <div class="inicio">
+                <div class="user-cirlcle"><a href="/login"><i class="fas fa-user-circle"></i></a></div>
+                <div class="carrito"><a href="/productCart"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+
+        </div>
+
+       
+
+
+        <nav class="tercero">
+            <div class="nav-barr">
+                <ul>
+                    <li><a href="#">Productos </a></li>
+                    <li><a href="#">Encontra tu equipo</a></li>
+                    <li><a href="#">Arma tu pc</a></li>
+                    <li><a href="/perfil">Mi cuenta</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+    </header>
     
 
     <!-- <body> -->
@@ -53,9 +100,7 @@
                     <div class="buy-price">
                         <a href="#" class="buy"></a>
                         <div class="price22">
-                        <form action="/" method="POST" >
-                                <input type="reset"  class="botone" value="Agregar a carrito">
-                            </form>
+                            <button class="botone"><a href="/ProductCart" class="letra3">Agregar a carrito </a></button>
                             <i class="fas fa-dollar-sign"></i>
                             <h1>77.144</h1>
                         </div>
@@ -70,24 +115,8 @@
                 <h2>También te puede interesar</h2>
             </div>
 
-<!--   
-    <div class="fotoabajo">
-        <img src="img/foto1.png"  width="200" alt="fotoproducto2" class="ft">
-        <p>Computadora Completa amd </p>
-
-        <img src="img/foto2.png" width="200" alt="fotoproducto2" class="ft"> 
-        <p>Monitor MSI</p> 
-
-        <img src="img/foto3.png" width="200" alt="fotoproducto2"class="ft">
-        <p >monitor asus</p>
-        
-        <img src="img/foto4.png" width="200" alt="fotoproducto2" class="ft">
-        <p >monitor oficina samsung</p>
-
-    </div>
-    -->
-
 <!-- </body> -->
+
         <div class="products">
             <article>
                 <div class="imagenes">
@@ -134,4 +163,58 @@
         </div>
     </section>
     </main>
+    <br>
+    <footer class="main-footer">
+        <div class="logobot">
+            <img src="img/este_si3.png" width="150" alt="LogoMPC">
+        </div>
+        <div class="qrcode">
+            <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIpLO91jzlH4&s=6&e=m"
+                width="130" alt="Generador de Códigos QR Codes" />
+
+        </div>
+        <div>
+            <h5>NOSOTROS</h5>
+            <ul>
+                <li><a href="#">¿Quienes somos?</a></li>
+                
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>AYUDA</h5>
+            <ul>
+                <li><a href="#">Soporte Técnico</a></li>
+                <li><a href="#">Cambios y Devoluciones</a></li>
+                
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Formulario de arrepentimiento</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>INSCRIBITE</h5>
+            <form class="formulario">
+                <input type="email" placeholder="dejanos tu mail" required>
+                <p>
+                    <input type="submit" value="ENVIAR">
+                </p>
+                <div class="form" action="#" method="GET">
+            </form>
+
+        </div>
+        </div>
+        <div>
+            <h5>CONTACTO</h5>
+            <ul>
+                <li><a href="">mpc-soporte@gmail.com </a></li>
+                <li> 42241569 </li>
+                <li> 1560498896</li>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>

@@ -3,6 +3,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+body{
+    background-color: #C5CAE9;
 }
 
 header{
@@ -12,6 +16,8 @@ header{
     
 }
 
+
+/*primer header0*/
 header .primero{
     display: block;
     flex-wrap: wrap ;
@@ -23,17 +29,32 @@ header .primero{
     padding: 3px;
 }
 
+
 .Logo{
+
     text-align: center;
 }
+
+/*.inicio {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    height: 40px;
+}*/
+
 .inicio {
     display: none;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 20px;
+    
     font-size: 20%;
+    
 }
+
 
 .inicio i {
     font-size: 50px;
@@ -42,10 +63,12 @@ header .primero{
 }
 /*primer header0*/
 
+
 header .form{
     display: flex;
     padding: 5px;
 }
+
 /*primer header1*/
 .form{
     display: block;
@@ -71,8 +94,11 @@ header .form{
     width: 40px;
     border-radius: 3px;
     min-height: 35%;
+
 }
 /*primer header1*/
+
+
 
 div.burger-menu{
     text-align: center;
@@ -89,14 +115,20 @@ div.burger-menu i{
     width: 40px;
 }
 
+
+
 /* navegador-header*/
 .tercero{
+    
     background-color: rgb(43, 43, 204);
     background: #3F51B5;  
+    
 }
 
 .tercero .nav-barr{
-    display: none; 
+    display: none;
+    
+   
 }
 
 .nav-barr ul{
@@ -147,6 +179,7 @@ header ul li a:hover{
     box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
 }
 
 @keyframes width{
@@ -170,7 +203,7 @@ header ul li a:hover{
 .info{
     background-color: #fff;
     z-index: 1;
-    padding: 30px 30px;
+    padding: 18px 18px;
     box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
@@ -214,7 +247,7 @@ header ul li a:hover{
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .price22{
@@ -231,6 +264,7 @@ header ul li a:hover{
     font-size: 35px;
     margin-right: 1px;
     line-height: 1;
+
 }
 
 .botone{
@@ -238,7 +272,6 @@ header ul li a:hover{
     background-color: rgb(43, 43, 204);
     color: #FFFFFF;
     border-radius: 4px;
-    width: 150px;
     height: 50px;
     justify-content: center;
     position: relative;
@@ -246,11 +279,15 @@ header ul li a:hover{
     font-size: 20px;
     border:none;
     font-family: 'Zen Kurenaido', sans-serif;
+    width: 20vw;
+    align-items: center;
 }
 
 .botone:hover{
     background-color:#C5CAE9; 
     color: black;
+    width: 20vw;
+
 }
 /* fin de detalle principal */
 
@@ -318,7 +355,7 @@ main .products article{
     color: #FFFFFF;
     border-radius: 4px;
     width: 100%;
-    display: flex;
+   
     justify-content: center;
     font-size: 20px;
     border:none;
@@ -341,6 +378,46 @@ main .products article{
 .discount{
     font-family: 'Zen Kurenaido', sans-serif;
     font-size:20px;
+}
+
+
+/*footer*/
+.main-footer{
+    display: flex;
+    
+    justify-content: space-between;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /*fin main*/
@@ -391,11 +468,11 @@ main .products article{
     .info{
         padding: 20px;
     }
-    .Background img {
-        width: 350px;
+    .Background img { 
+        max-width: 100%;
+         height: auto;
     }
 }
-
 
 @media(min-width:361px){
     header .burger-menu{
