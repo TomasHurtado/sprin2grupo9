@@ -279,14 +279,14 @@ header ul li a:hover{
     font-size: 20px;
     border:none;
     font-family: 'Zen Kurenaido', sans-serif;
-    width: 20vw;
+    width: 10vw;
     align-items: center;
 }
 
 .botone:hover{
     background-color:#C5CAE9; 
     color: black;
-    width: 20vw;
+    width: 10vw;
 
 }
 /* fin de detalle principal */
@@ -556,6 +556,7 @@ h5{
     .inicio{
         display: flex;
     }
+    .botone{width: 30vw;}
 }
 
 @media(min-width:769px){
@@ -570,5 +571,10 @@ h5{
     main section div.products article{
         width: 22%;
     }
+    .botone{width: 10vw;}
     
+}
+
+@media(max-width:361){
+    .botone{width: 30vw;}
 }
