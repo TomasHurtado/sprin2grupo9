@@ -121,9 +121,11 @@ header ul li a:hover{
     color: black;
     border-radius: 3px;
 }
+
+
 /*Producto detallado principal*/
 
-/*
+
 .container{
     min-height: 80vh;
     display: flex;
@@ -254,7 +256,7 @@ header ul li a:hover{
 }
 /* fin de detalle principal */
 
-/*caja de subtitulo
+/*caja de subtitulo*/
 .subtitulo {
     display: flex;
     position: relative;
@@ -270,8 +272,84 @@ h2{
 body{
     background-color: #C5CAE9;
 }
- fin  caja de subtitulo
+ /*fin  caja de subtitulo*/
 
+ /*main*/
+ main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    max-width: 100%;
+    height: auto;
+}
+
+main section h3{
+    margin: 20px 0px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 37 px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+main .products article{
+    background-color: white;
+}
+
+
+.discount{
+    padding-left: 4px;
+}
+
+
+.botone3{
+    background-color: rgb(43, 43, 204);
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    border:none;
+    text-decoration: none;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+.letra3{
+    text-decoration: none;
+    color:#FFFFFF; 
+}
+
+.botone3:hover{
+    text-decoration: none;
+    background-color:#C5CAE9; 
+    color: black;
+}
+
+.price,
+.discount{
+    
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size:20px;
+    
+}
+
+/*fin main*/
 @media (max-width: 1000px){
     .card{
         flex-direction: column;
@@ -288,8 +366,7 @@ body{
         left: 5%;
     }
 }
-*/
-/*
+
 @media (max-width: 490px){
     .foto1{
         display: flex;
@@ -324,7 +401,7 @@ body{
         width: 350px;
     }
 }
-*/
+
 
 
 @media(min-width:361px){
@@ -363,6 +440,58 @@ body{
         height: 40px;
         font-size: 25px;
     }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+    
+    /*.botone3:hover{
+        text-decoration: none;
+        background-color:#C5CAE9; 
+        color: black;
+    }*/
+
+    header .burger-menu{
+        display: none;
+    }
+
+    .tercero .nav-barr{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin: 0 3%;
+    }
+
+    header .nav-barr{
+        display: flex;
+        justify-content: center;
+        padding: 0 8px 8px 8px;
+    }
+
+    .nav-barr ul{
+        display: flex;
+    }
+    .nav-barr ul a{
+        margin: 0 5px;
+        display: flex;
+        padding: 0 3px;
+    }
+
+    .inicio{
+        display: flex;
+    }
 }
 
 @media(min-width:769px){
@@ -374,4 +503,8 @@ body{
         font-size: 25px;
         align-items: center;
     }
+    main section div.products article{
+        width: 22%;
+    }
+    
 }
