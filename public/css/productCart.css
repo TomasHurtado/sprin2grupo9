@@ -144,19 +144,20 @@ main{
     display: flex;
     padding: 50px;
     background: #C5CAE9;   
+    flex-direction: column;
     justify-content: center;
-   
 }
 
 
 .produc-precio{
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     box-shadow: 0px 0px 10px rgb(82, 81, 81); 
     font-family: 'Zen Kurenaido', sans-serif; 
-   
 }
+
 th, td {
     padding: 15px;
     text-align: left; 
@@ -170,14 +171,21 @@ th {
     background-color: rgb(43, 43, 204);
     color: white;
 }
+
+/*boton*/
 .botone44{
     color:white;
-    background-color: rgb(43, 43, 204);
+
     border: none;
     text-decoration: none;
     font-size: 20px;
     
 }
+.botone44:hover{
+    text-decoration: none;
+     background-color:#97a0d8; 
+     color: black;
+ }
 
 .borde22{
     background-color: rgb(43, 43, 204);
@@ -191,18 +199,14 @@ th {
      background-color:#97a0d8; 
      color: black;
  }
-.botone44:hover{
-    text-decoration: none;
-     background-color:#97a0d8; 
-     color: black;
- }
 
+/*boton*/
 
 .titulo-compra{
     display: flex;
     justify-content: space-between;
     font-family: 'Zen Kurenaido', sans-serif;
-
+    padding-bottom: 10px;
 }
 
 
@@ -213,7 +217,7 @@ th {
     list-style-type: none;
     text-decoration: none;
     border-collapse: collapse;
-    
+    width: 100%;
 }
 .tabla a{
     text-decoration: none;
@@ -224,6 +228,7 @@ th {
     flex-direction: row;
     text-decoration: none;
     justify-content: space-around;
+    
     
 }
 .tabla-productos ul li{
