@@ -158,6 +158,7 @@ main{
     font-family: 'Zen Kurenaido', sans-serif; 
 }
 
+
 th, td {
     padding: 15px;
     text-align: left; 
@@ -236,6 +237,21 @@ th {
     padding: 15px;
     
 }
+
+
+/*table*/
+table{
+    overflow-x:auto;
+}
+table {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+/*table*/
+
 .productos{
     display: flex;
     flex-direction: row;
@@ -357,7 +373,14 @@ h5{
 
 
   
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
 
+.table1{
+    width: 100%;
+}
 
 /*////**/
 
@@ -465,4 +488,193 @@ h5{
         display: block;
     
     }
+
+
+@media screen and (max-width:769px){
+    /*.table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }*/
+
+
+
+
+    /*responsive table*/
+    .table1{
+        width: 100%;
+    }
+
+
+    .padret2 .table2{
+        width: 100%;
+    }
+/*
+    .productos{
+        width: 100%;*/
+    }
+
+    .table1, .table2, thead, tbody, th, td, tr{
+        display: block ;
+    }
+
+    
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr{
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd){
+        background: #ccc;
+    }
+    td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+
+    }
+
+    td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table1 td:nth-of-type(1):before {content: "Producto";}
+    .table1 td:nth-of-type(2):before {content: "Descripción";}
+    .table1 td:nth-of-type(3):before {content: "Cantidad";}
+    .table1 td:nth-of-type(4):before {content: "Precio";}
+    .table1 td:nth-of-type(5):before {content: "Monto Total";}
+    
+
+
+    .table2 thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table2 tr{
+        margin: 0 0 1rem 0;
+    }
+
+    .table2 tr:nth-child(odd){
+        background: #ccc;
+    }
+    .table2 td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+
+    }
+
+    .table2 td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table2 td:nth-of-type(1):before {content: "Tipo de Entrega";}
+    .table2 td:nth-of-type(2):before {content: " ";}
+
+
+    .table3 thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table3 tr{
+        margin: 0 0 1rem 0;
+    }
+
+    .table3 tr:nth-child(odd){
+        background: #ccc;
+    }
+    .table3 td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+
+    }
+
+    .table3 td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table3 td:nth-of-type(1):before {content: "Método de pago";}
+    .table3 td:nth-of-type(2):before {content: " ";}
+
+
+
+    .table4 thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table4 tr{
+        margin: 0 0 1rem 0;
+    }
+
+    .table4 tr:nth-child(odd){
+        background: #ccc;
+    }
+
+    .table4 td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .table4 td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table4 td:nth-of-type(1):before {content: "Monto final";}
+
+    .final-precio{
+        position: absolute;
+        left: 6px;
+
+    }
+    /*responsive table*/
 }
