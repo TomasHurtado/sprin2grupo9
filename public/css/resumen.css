@@ -232,14 +232,16 @@ th {
     justify-content: space-between;
 }
 
+
+/*boton*/
 .letra443{
+    display: flex;
+    justify-content: center;
     color:white;
-    
     border: none;
     text-decoration: none;
     font-size: 20px;
 }
-
 .letra443:hover{
     text-decoration: none;
      background-color:#97a0d8; 
@@ -247,18 +249,44 @@ th {
  }
 
 .boton223{
+    display: flex;
+    justify-content: center;
+    padding: 0.58%;
     background-color: rgb(43, 43, 204);
-    height: 40px;
-    width: 10%;
+    /*height: 40px;
+    width: 10%;*/
     border-radius: 5px;
     text-decoration: none;
-    width: 20%;
 }
 .boton223:hover{
     text-decoration: none;
      background-color:#97a0d8; 
      color: black;
  }
+
+ /*botn responsive*/
+ .padre-boton3{
+    display: flex;
+    justify-content: center;
+    
+}
+/*botn responsive*/
+
+/*boton*/
+
+
+/*table*/
+table{
+    overflow-x:auto;
+}
+table {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+/*table*/
 
 
 
@@ -428,4 +456,124 @@ h5{
     .titulo{
         font-size: 20px;
     }
+}
+
+
+@media screen and (max-width:769px){
+    /*.table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }*/
+
+
+
+
+    /*responsive table*/
+    .table11{
+        width: 100%;
+    }
+
+
+    .table11{
+        width: 100%;
+    }
+
+    .table11, .table4, thead, tbody, th, td, tr{
+        display: block ;
+    }
+
+    
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr{
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd){
+        background: #ccc;
+    }
+    td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+
+    }
+
+    td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table11 td:nth-of-type(1):before {content: "Producto";}
+    .table11 td:nth-of-type(2):before {content: "Descripción";}
+    .table11 td:nth-of-type(3):before {content: "Cantidad";}
+    .table11 td:nth-of-type(4):before {content: "Precio";}
+    .table11 td:nth-of-type(5):before {content: "Monto Total";}
+    
+
+    .table4 thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table4 tr{
+        margin: 0 0 1rem 0;
+    }
+
+    .table4 tr:nth-child(odd){
+        background: #ccc;
+    }
+
+    .table4 td{
+        border: none;
+        border-bottom: 1px solid #eee ;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .table4 td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table4 td:nth-of-type(1):before {content: "Monto final";}
+
+    .final-precio{
+        position: absolute;
+        left: 6px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;}
 }

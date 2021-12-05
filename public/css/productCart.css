@@ -146,6 +146,7 @@ main{
     background: #C5CAE9;   
     flex-direction: column;
     justify-content: center;
+    
 }
 
 
@@ -175,12 +176,12 @@ th {
 
 /*boton*/
 .botone44{
+    display: flex;
+    justify-content: center;
     color:white;
-
     border: none;
     text-decoration: none;
     font-size: 20px;
-    
 }
 .botone44:hover{
     text-decoration: none;
@@ -189,9 +190,12 @@ th {
  }
 
 .borde22{
+    display: flex;
+    justify-content: center;
+    padding: 0.58%;
     background-color: rgb(43, 43, 204);
-    height: 40px;
-    width: 10%;
+    /*height: 40px;
+    width: 10%;*/
     border-radius: 5px;
     text-decoration: none;
 }
@@ -200,6 +204,14 @@ th {
      background-color:#97a0d8; 
      color: black;
  }
+
+ /*botn responsive*/
+ .padre-boton{
+    display: flex;
+    justify-content: center;
+    
+}
+/*botn responsive*/
 
 /*boton*/
 
@@ -218,7 +230,7 @@ th {
     list-style-type: none;
     text-decoration: none;
     border-collapse: collapse;
-    width: 100%;
+    
 }
 .tabla a{
     text-decoration: none;
@@ -454,10 +466,11 @@ h5{
     }
 
     main {
-        padding: 0px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
     }
     .titulo-compra{
         display: block;
@@ -527,7 +540,7 @@ h5{
         width: 100%;*/
     }
 
-    .table1, .table2, thead, tbody, th, td, tr{
+    .table1, .table2, .table3, .table4, thead, tbody, th, td, tr{
         display: block ;
     }
 
@@ -677,4 +690,6 @@ h5{
 
     }
     /*responsive table*/
+
+    
 }
